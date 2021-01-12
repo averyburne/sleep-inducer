@@ -7,6 +7,14 @@ img:hover {
     margin: -1px;
 }
 
+#rain-btn {
+    width: 100px;
+}
+
+#rain-stop-btn {
+    width: 100px;
+}
+
 .sound-label {
     margin: 10px 10px 0 10px;
     padding: 0px;
