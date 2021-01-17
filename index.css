@@ -7,6 +7,10 @@ body {
     margin: -1px;
 }
 
+.container {
+    border: 1px solid black;
+}
+
 .sound-btn {
     width: 100px;
 }
@@ -17,4 +21,5 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
     font-weight: bold;
+    border: 1px solid black;
 }

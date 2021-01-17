@@ -9,17 +9,17 @@
     </head> 
     <body>
         <h1>Nice Sounds</h1>
-        <div>
-            <button id="rain-btn" class="sound-btn" onclick="makeSound()">Rain Sound</button>
+        <div class="container">
+            <input type="image" src="https://cdn0.iconfinder.com/data/icons/ecology-111/1022/clouds-512.png" alt="Rain Cloud" class="sound-btn" id="rain-btn" onclick="makeSound()" />
+            <input type="image" src="https://thumbs.dreamstime.com/b/food-court-shopping-mall-eating-out-market-people-eat-city-vector-buying-snacks-fastfood-coffee-bakery-drinks-kiosk-173855111.jpg" alt="Food Court" class="sound-btn" id="chatter-btn" onclick="makeSound2()" />
             <button id="chatter-btn" class="sound-btn" onclick="makeSound2()">Food Court</button>
         </div>
         <div>
-            <p class="sound-label">Rain:</p><br>
+            <p class="col-md-12 sound-label">Rain:</p><br>
             <audio id="rain-audio" controls loop>
                 <source src="rain-01.mp3" type="audio/mpeg">
                 Your browser does not support this feature
             </audio>
-            <br>
             <p class="sound-label" >Food Court:</p><br>
             <audio id="food-cour-audio" controls loop>
                 <source src="food-court-1.mp3" type="audio/mpeg">
