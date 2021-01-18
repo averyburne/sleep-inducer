@@ -7,12 +7,13 @@ body {
     margin: -1px;
 }
 
-.container {
+.b {
     border: 1px solid black;
+    width: 100vw;
 }
 
 .sound-btn {
-    width: 100px;
+    width: 48vw;
 }
 
 .sound-label {
