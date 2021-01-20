@@ -26,6 +26,32 @@ const makeSound = function () {
     }
 }
 
+const lowerVolume = function () {
+    if (audio.volume === 1) {
+        audio.volume = 0.8
+    } else if (audio.volume === 0.8) {
+        audio.volume = 0.6
+    } else if (audio.volume === 0.6) {
+        audio.volume = 0.4
+    } else if (audio.volume = 0.4) {
+        audio.volume = 0.2
+    }
+    console.log(audio.volume)
+}
+
+const raiseVolume = function () {
+    if (audio.volume === 0.2) {
+        audio.volume = 0.4
+    } else if (audio.volume === 0.4) {
+        audio.volume = 0.6
+    } else if (audio.volume === 0.6) {
+        audio.volume = 0.8
+    } else if (audio.volume = 0.8) {
+        audio.volume = 1
+    }
+    console.log(audio.volume)
+}
+
 const makeSound2 = function () {
     if (chatterBool) {
         audio2.play()
