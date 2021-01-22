@@ -29,12 +29,16 @@ const makeSound = function () {
 const lowerVolume = function () {
     if (audio.volume === 1) {
         audio.volume = 0.8
+        document.getElementById("volume-percent").innerHTML = "80%"
     } else if (audio.volume === 0.8) {
         audio.volume = 0.6
+        document.getElementById("volume-percent").innerHTML = "60%"
     } else if (audio.volume === 0.6) {
         audio.volume = 0.4
+        document.getElementById("volume-percent").innerHTML = "40%"
     } else if (audio.volume = 0.4) {
         audio.volume = 0.2
+        document.getElementById("volume-percent").innerHTML = "20%"
     }
     console.log(audio.volume)
 }
@@ -42,12 +46,16 @@ const lowerVolume = function () {
 const raiseVolume = function () {
     if (audio.volume === 0.2) {
         audio.volume = 0.4
+        document.getElementById("volume-percent").innerHTML = "40%"
     } else if (audio.volume === 0.4) {
         audio.volume = 0.6
+        document.getElementById("volume-percent").innerHTML = "60%"
     } else if (audio.volume === 0.6) {
         audio.volume = 0.8
+        document.getElementById("volume-percent").innerHTML = "80%"
     } else if (audio.volume = 0.8) {
         audio.volume = 1
+        document.getElementById("volume-percent").innerHTML = "100%"
     }
     console.log(audio.volume)
 }
