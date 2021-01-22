@@ -7,6 +7,7 @@ let rainBool = true
 let chatterBool = true
 let whiteNoiseBool = true
 let fireBool = true
+let slider = document.getElementById("rain-slider")
 
 const makeSound = function () {
     if (rainBool) {
@@ -24,6 +25,11 @@ const makeSound = function () {
         document.body.style.backgroundImage = ''
         document.body.style.color = "black"
     }
+}
+
+slider.oninput = function () {
+    document.getElementById("volume-percent").innerHTML = slider.value + "%"
+    audio.volume = slider.value * 0.01
 }
 
 const lowerVolume = function () {

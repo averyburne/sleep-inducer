@@ -25,6 +25,11 @@ body {
     transform: rotate(180deg);
 }
 
+.slider {
+    width: 25px;
+    height: 25px;
+}
+
 .sound-label {
     margin: 10px 10px 0 10px;
     padding: 0px;
