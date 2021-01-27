@@ -7,7 +7,11 @@ let rainBool = true
 let chatterBool = true
 let whiteNoiseBool = true
 let fireBool = true
-let slider = document.getElementById("rain-slider")
+let rainSlider = document.getElementById("rain-slider")
+let chatterSlider = document.getElementById("chatter-slider")
+let whiteNoiseSlider = document.getElementById("white-noise-slider")
+let fireSlider = document.getElementById("fire-slider")
+
 
 const makeSound = function () {
     if (rainBool) {
@@ -27,9 +31,24 @@ const makeSound = function () {
     }
 }
 
-slider.oninput = function () {
-    document.getElementById("volume-percent").innerHTML = slider.value + "%"
-    audio.volume = slider.value * 0.01
+rainSlider.oninput = function () {
+    document.getElementById("rain-percent").innerHTML = rainSlider.value + "%"
+    audio.volume = rainSlider.value * 0.01
+}
+
+chatterSlider.oninput = function () {
+    document.getElementById("chatter-percent").innerHTML = chatterSlider.value + "%"
+    audio2.volume = chatterSlider.value * 0.01
+}
+
+whiteNoiseSlider.oninput = function () {
+    document.getElementById("white-noise-percent").innerHTML = whiteNoiseSlider.value + "%"
+    audio3.volume = whiteNoiseSlider.value * 0.01
+}
+
+fireSlider.oninput = function () {
+    document.getElementById("fire-percent").innerHTML = fireSlider.value + "%"
+    audio4.volume = fireSlider.value * 0.01
 }
 
 const lowerVolume = function () {
