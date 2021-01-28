@@ -7,13 +7,14 @@ body {
     margin: -1px;
 }
 
-.b {
+.sound-block {
     border: 1px solid black;
-    width: 100vw;
+    width: 25vw;
+    display: inline;
 }
 
 .sound-btn {
-    width: 48vw;
+    width: 25vw;
 }
 
 .volume-btn {
@@ -26,8 +27,27 @@ body {
 }
 
 .slider {
-    width: 25px;
-    height: 25px;
+    width: 250px;
+}
+
+#rain-slider {
+    width: 250px;
+}
+
+#chatter-slider {
+    width: 250px;
+}
+
+#white-noise-slider {
+    width: 250px;
+}
+
+#fire-slider {
+    width: 250px;
+}
+
+input[type=range] {
+    width: 250px;
 }
 
 .sound-label {
