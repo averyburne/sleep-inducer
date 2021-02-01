@@ -7,23 +7,24 @@ body {
     margin: -1px;
 }
 
+.container {
+    border: 1px solid black;
+}
+
 .sound-block {
     border: 1px solid black;
-    width: 25vw;
+    width: 25px;
     display: inline;
 }
 
 .sound-btn {
     width: 25vw;
+    margin: 0px;
 }
 
 .volume-btn {
     height: 20px;
     width: 20px;
-}
-
-#up-arrow {
-    transform: rotate(180deg);
 }
 
 .slider {
@@ -46,8 +47,8 @@ body {
     width: 250px;
 }
 
-input[type=range] {
-    width: 250px;
+.slider {
+    border: 1px solid black;
 }
 
 .sound-label {
