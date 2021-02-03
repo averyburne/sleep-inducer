@@ -2,6 +2,10 @@ body {
     /* background-image: url("https://media1.giphy.com/media/PbOaO2fedzQLm/giphy.gif") */
 }
 
+h1 {
+    background-color: red;
+}
+
 #rain-btn2:hover {
     border: 1px solid blue;
     margin: -1px;
@@ -9,16 +13,21 @@ body {
 
 .container {
     border: 1px solid black;
+    /* margin-left: 0px;
+    width: 100%;
+    box-sizing: border-box; */
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .sound-block {
-    border: 1px solid black;
-    width: 25px;
-    display: inline;
+    width: 22vw;
+    height: 30px;
+    display: inline-block;
 }
 
 .sound-btn {
-    width: 25vw;
+    width: 22vw;
     margin: 0px;
 }
 
@@ -28,10 +37,10 @@ body {
 }
 
 .slider {
-    width: 250px;
+    width: 6vw;
 }
 
-#rain-slider {
+/* #rain-slider {
     width: 250px;
 }
 
@@ -45,7 +54,7 @@ body {
 
 #fire-slider {
     width: 250px;
-}
+} */
 
 .slider {
     border: 1px solid black;
