@@ -13,11 +13,9 @@ h1 {
 
 .container {
     border: 1px solid black;
-    /* margin-left: 0px;
-    width: 100%;
-    box-sizing: border-box; */
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 99%;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .sound-block {
@@ -27,7 +25,7 @@ h1 {
 }
 
 .sound-btn {
-    width: 22vw;
+    width: 22%;
     margin: 0px;
 }
 
