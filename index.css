@@ -1,6 +1,6 @@
-body {
-    /* background-image: url("https://media1.giphy.com/media/PbOaO2fedzQLm/giphy.gif") */
-}
+/* body {
+    background-image: url("https://media1.giphy.com/media/PbOaO2fedzQLm/giphy.gif")
+} */
 
 h1 {
     background-color: red;
@@ -14,9 +14,16 @@ h1 {
 .container {
     border: 1px solid black;
     width: 99%;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: block;
 }
+
+#sound-container {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+} 
 
 .sound-block {
     width: 22vw;
@@ -25,7 +32,7 @@ h1 {
 }
 
 .sound-btn {
-    width: 22%;
+    width: 22vw;
     margin: 0px;
 }
 
