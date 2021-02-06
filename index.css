@@ -1,9 +1,9 @@
-/* body {
-    background-image: url("https://media1.giphy.com/media/PbOaO2fedzQLm/giphy.gif")
-} */
+body {
+    background-color: rgba(255, 204, 153, 0.6) !important;
+}
 
 h1 {
-    background-color: red;
+    font-family: Roboto;
 }
 
 #rain-btn2:hover {
@@ -26,7 +26,7 @@ h1 {
 } 
 
 .sound-block {
-    width: 22vw;
+    width: 23vw;
     height: 30px;
     display: inline-block;
 }
@@ -36,13 +36,8 @@ h1 {
     margin: 0px;
 }
 
-.volume-btn {
-    height: 20px;
-    width: 20px;
-}
-
 .slider {
-    width: 6vw;
+    width: 30px;
 }
 
 /* #rain-slider {
