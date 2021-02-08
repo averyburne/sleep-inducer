@@ -12,10 +12,12 @@ h1 {
 }
 
 .container {
-    border: 1px solid black;
+    border: 1px dotted black;
+    border-radius: 5%;
     width: 99%;
     margin-left: 0px;
     margin-right: 0px;
+    padding: 10px;
     display: block;
 }
 
@@ -40,27 +42,28 @@ h1 {
 .sound-btn {
     width: 22vw;
     margin: 0px;
+    border-radius: 10%;
 }
 
 .slider {
     width: 30px;
 }
 
-/* #rain-slider {
-    width: 250px;
+#rain-slider {
+    width: 22vw;
 }
 
 #chatter-slider {
-    width: 250px;
+    width: 22vw;
 }
 
 #white-noise-slider {
-    width: 250px;
+    width: 22vw;
 }
 
 #fire-slider {
-    width: 250px;
-} */
+    width: 22vw;
+}
 
 .slider {
     border: 1px solid black;
